@@ -5,7 +5,7 @@ from os.path import join
 from sklearn.cross_validation import train_test_split
 from sklearn import manifold
 
-data_path = r'/Major 1/data/'
+data_path = r'/data/'
 
 def preprocess(df):
     f = [c for c in df.columns if not c in['fault_severity', 'tsne0', 'tsne1']]

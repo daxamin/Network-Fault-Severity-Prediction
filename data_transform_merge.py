@@ -2,7 +2,7 @@ import pandas as pd
 from os.path import join
 import numpy as np
     
-data_path = r'/Major 1/data/'
+data_path = r'/data/'
 
 # add neighbors features, predecessor and successor
 def featured_neighbors():
